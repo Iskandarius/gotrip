@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ }
+ .nav{
+    background: #3E8989;
+ }
+.header__nav{
+    height: 100px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.header__title a{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;        
+}
+.nav__menu{
+    display: flex;
+    gap: 30px;
+ }
+.menu__item a{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.menu__item a:hover{
+    border-bottom: 3px solid white;
+}
+.search{
+    display: flex;  
+}
+.input__text{
+    width: 216px;
+    height: 36px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.input__button{
+    width: 74px;
+    height: 36px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    outline: none;
+    background: #295E5E;
+    color: white;
+}
+.banner__wrap{
+    background: url(../img/banner_img.png) no-repeat center/cover;
+    border-radius: 0px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+ }
+.banner__title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 95px;
+    margin-bottom: 20px;
+}
+.banner__text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+.banner__more{
+    background: #B4436C;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: 300ms;
+}
+.banner__more:hover{
+    background: white;
+    color: #B4436C;
+    
+}
+.about__us__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #3E8989;
+    margin-top: 80px;    
+}
+.about__us__main{
+    margin-top: 50px;
+    display: flex;   
+}
+.about__us__text{
+   display: flex; 
+   flex-wrap: wrap;
+   font-family: 'Rubik', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21px;
+   margin-left: 20px;
+}
+.catalog__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color:  #3E8989;
+    margin-top: 96px;
+}
+.flexbox{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block{
+    background: lightgrey;
+    width: 264px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.catalog__item{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.catalog__item:hover{
+    color: #B4436C;
+}
+.contacts__title{
+    margin-top: 100px;
+    color:  #3E8989;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;  
+}
+.contacts__nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+.contacts__1 a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer__nav{
+   margin-top: 104px; 
+   height: 150px;
+   display: flex;
+   flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.footer__menu{
+    display: flex;
+    gap: 30px; 
+    margin-bottom: 60px;
+}
+.footer__menu__item a{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.sub{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: white;
+    display: flex;
+}
+.link{
+    margin-bottom: 20px;
+}
